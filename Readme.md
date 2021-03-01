@@ -37,3 +37,21 @@
          금일은 외출해서 늦게 오는 바람에 하지 못했습니다.
          
          ***
+         
+* 3월 2일
+    * JSP MVC Model2를 통한 웹페이지 연습 마무리
+         ***
+         
+         JSP MVC Model에 대해서 확인해보기 위해서 이전 연습했던 MainController가 아니라
+         SubController를 생성하여서 index.jsp에서 query에 따라서 같은 subContext.do로 이동하지만
+         다른 페이지가 출력될 수 있도록 처리하였습니다.
+         처음에 HttpServletRequest에서 getAttribute 메소드를 이용하여 query를 가져오려고 하였는데
+         getAttribute 메소드는 이전 jsp나 servlet에서 생성된 객체를 가져오는거지 쿼리를 가져오는 메소드가 아니었고
+         해당 메소드는 getParameter였습니다.
+         
+         이를 통해서 기본적인 mvc model2 jsp 페이지에 대해서는 기본적인 연습을 마쳤다고 할 수 있습니다.
+         
+         이후로는 Spring MVC Project를 이용하여서 프로젝트를 이용해보며
+         해당 Project에서는 mysql과의 연동, fe단에 대한 복습, mvc spring에 대한 기본적인 이해를 하기 위해 노력하겠습니다.
+         
+         ***
