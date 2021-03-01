@@ -1,7 +1,7 @@
 오늘부터 그 동안 우격다짐으로 넣어져 있던 개념들을 다시 정리할 겸
 아래와 같은 순서대로 개념을 다시 정리하고 포트폴리오를 작성해보고자 합니다
 
-1. JSP Model 1 (3일 예상)
+1. JSP Model 1 (완료)
 2. JSP Model 2 (3일 예상)
 3. Spring MVC Project (4일 예상)
 4. Spring Boot Project (3일 예상)
@@ -27,5 +27,13 @@
          다만 위와 같이 설정해주기 위해서는 servlet을 설정해줘야 하며
          컨트롤러에서는 HttpServlet을 상속받아 doGet, doPost에서 처리 로직을 구현한뒤
          RequestDispatcher를 이용하여 원하는 view 객체로 forward 해주게 된다.
+         
+         ***
+         
+* 3월 1일
+    * JSP MVC Model2를 통한 웹페이지 연습
+         ***
+         
+         금일은 외출해서 늦게 오는 바람에 하지 못했습니다.
          
          ***
